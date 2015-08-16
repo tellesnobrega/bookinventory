@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="fill_parent"
+	android:layout_width="match_parent">
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="vertical">
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="horizontal">
+				<TextView android:id="@+id/coverInfoTV" android:text="@string/cover"
+					android:layout_height="match_parent" android:layout_width="0dp"
+					android:layout_weight="1" />
+				<LinearLayout android:id="@+id/linearLayout4"
+					android:layout_height="match_parent" android:layout_width="0dp"
+					android:orientation="vertical" android:layout_weight="1"></LinearLayout>
+				<ImageView android:id="@+id/bookCover"
+					android:layout_height="match_parent" android:layout_width="0dp"
+					android:layout_weight="1"></ImageView>
+				<LinearLayout android:id="@+id/linearLayout5"
+					android:layout_height="match_parent" android:layout_width="0dp"
+					android:orientation="vertical" android:layout_weight="1"></LinearLayout>
+
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="horizontal">
+				<TextView android:id="@+id/titleInfoTV"
+					android:layout_height="wrap_content" android:layout_width="64dp"
+					android:text="@string/title" />
+				<EditText android:id="@+id/titleInfoRecovered"
+					android:editable="false" android:layout_height="wrap_content"
+					android:cursorVisible="false" android:layout_weight="1"
+					android:layout_width="match_parent" />
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="horizontal">
+				<TextView android:id="@+id/authorInfoTV" android:text="@string/author"
+					android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp"/>
+				<EditText android:id="@+id/authorInfoRecovered"
+					android:editable="false" android:layout_height="wrap_content"
+					android:cursorVisible="false" android:layout_width="match_parent" android:layout_weight="1"/>
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="horizontal">
+				<TextView android:id="@+id/barcodeInfoTV" android:text="@string/barcode"
+					android:layout_height="wrap_content" android:layout_width="wrap_content" />
+				<EditText android:id="@+id/barcodeInfoRecovered"
+					android:editable="false" android:layout_height="wrap_content"
+					android:cursorVisible="false" android:layout_width="match_parent" />
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:orientation="horizontal" android:layout_height="wrap_content">
+				<TextView android:id="@+id/yearInfoTV" android:text="@string/year"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+				<EditText android:id="@+id/yearInfoRecovered"
+					android:editable="false" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:cursorVisible="false" />
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="horizontal">
+				<TextView android:id="@+id/categorInfoTV" android:text="@string/category"
+					android:layout_height="wrap_content" android:layout_width="wrap_content" />
+				<Spinner android:id="@+id/categorySpinner"
+					android:layout_height="wrap_content" android:drawSelectorOnTop="true"
+					android:layout_width="wrap_content" />
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="horizontal">
+				<LinearLayout android:id="@+id/linearLayout1"
+					android:layout_height="match_parent" android:orientation="vertical"
+					android:layout_width="0dp" android:layout_weight="1"></LinearLayout>
+				<Button android:id="@+id/saveBook" android:layout_height="wrap_content"
+					android:text="@string/save" android:layout_x="65px"
+					android:layout_width="70px" android:layout_weight="1" />
+				<LinearLayout android:id="@+id/linearLayout2"
+					android:layout_height="match_parent" android:orientation="vertical"
+					android:layout_width="0dp" android:layout_weight="1"></LinearLayout>
+				<Button android:id="@+id/cancelBook" android:layout_height="wrap_content"
+					android:text="@string/cancel" android:layout_x="125px"
+					android:layout_width="70px" android:layout_weight="1" />
+				<LinearLayout android:id="@+id/linearLayout3"
+					android:layout_height="match_parent" android:orientation="vertical"
+					android:layout_width="0dp" android:layout_weight="1"></LinearLayout>
+				<Button android:layout_width="wrap_content" android:text="@string/searchMore"
+					android:layout_height="wrap_content" android:id="@+id/searchMore"
+					android:layout_weight="1"></Button>
+				<LinearLayout android:layout_width="wrap_content"
+					android:layout_height="match_parent" android:id="@+id/linearLayout6"
+					android:orientation="vertical" android:layout_weight="1"></LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>
+

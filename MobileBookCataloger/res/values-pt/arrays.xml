@@ -1,0 +1,10 @@
+<resources>
+
+    <string-array name="categories">
+        <item>Meus livros</item>
+        <item>Desejados</item>
+        <item>Emprestei</item>
+        <item>Peguei emprestado</item>
+    </string-array>
+    
+</resources>

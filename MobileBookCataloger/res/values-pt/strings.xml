@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Biblioteca Móvel</string>
+    <string name="selectBook">Escolha o livro desejado:</string>
+    <string name="searching">Procurando...</string>
+    <string name="saving">Salvando...</string>
+    <string name="notFound">Livro não encontrado</string>
+    <string name="addManually">Você deseja adicionar manualmente?</string>
+    <string name="save">Salvar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Deletar</string>
+    <string name="edit">Editar</string>
+    <string name="author">Autor:    </string>
+    <string name="title">Título:   </string>
+    <string name="year">Ano:      </string>
+    <string name="barcode">Código:   </string>
+    <string name="category">Categoria:</string>
+    <string name="noBook">Você não tem livros aqui.</string>
+    <string name="confirm">Confirmar</string>
+    <string name="none">Nenhum desses</string>
+    <string name="cover">Capa</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="sucessullyDeleted">O livro foi removido</string>
+    <string name="confirmDeletion">Você quer remover esse livro?</string>
+    <string name="lendInformation">Informações de Empréstimo</string>
+    <string name="borrowedInformation">Informações de Empréstimo</string>
+    <string name="lentTo">Emprestado para:</string>
+    <string name="date">Data:</string>
+    <string name="borrowedFrom">Emprestado de:</string>
+    <string name="searchMore">Pesquisar mais</string>
+	<string name="moreInfo">Mais Info</string>
+	<string name="close">Fechar</string>    
+    
+</resources>

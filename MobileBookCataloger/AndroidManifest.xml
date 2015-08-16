@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.google.library"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+    
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.HARDWARE_TEST"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".Splash"
+			      android:screenOrientation="portrait"
+			      android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		 <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>	      
+		</activity>
+        <activity android:name=".Menu"
+        		  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".BookCoverDisplay"
+        	      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        	      android:screenOrientation="portrait"> </activity>
+        <activity android:name=".BookInfo"
+                  android:screenOrientation="landscape"
+        	      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"> </activity>
+        <activity android:name=".BookInventory"
+        	      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        	      android:screenOrientation="portrait"> </activity>
+        <activity android:name=".AddNewBookInfo"
+        	      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        	      android:screenOrientation="landscape"> </activity>
+	    <activity android:name="com.google.zxing.client.android.CaptureActivity"
+			android:screenOrientation="landscape"
+			android:configChanges="orientation|keyboardHidden"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			android:windowSoftInputMode="stateAlwaysHidden">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+			    <category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+			<intent-filter>
+			    <action android:name="com.google.zxing.client.android.SCAN"/>
+			    <category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+		</activity>
+    </application>
+</manifest>

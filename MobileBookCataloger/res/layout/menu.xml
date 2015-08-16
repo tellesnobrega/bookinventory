@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/background">
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_width="match_parent" android:layout_weight="1"
+		android:layout_height="0dp"></LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout2"
+		android:layout_width="match_parent" android:layout_weight="1"
+		android:layout_height="0dp">
+		<LinearLayout android:id="@+id/linearLayout6"
+			android:layout_height="match_parent" android:layout_width="0dp"
+			android:layout_weight="1"></LinearLayout>
+		<ImageButton android:layout_weight="1" android:id="@+id/imageButtonBooks"
+			android:layout_width="0dp" android:src="@drawable/bookshelf" android:layout_height="wrap_content"></ImageButton>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout3"
+		android:layout_width="match_parent" android:layout_weight="1"
+		android:layout_height="0dp"></LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout4"
+		android:layout_width="match_parent" android:layout_weight="1"
+		android:layout_height="wrap_content">
+		<LinearLayout android:id="@+id/linearLayout8"
+			android:layout_height="match_parent" android:layout_width="0dp"
+			android:layout_weight="1"></LinearLayout>
+		<ImageButton android:src="@drawable/scanner" android:id="@+id/imageButtonScanner"
+			android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></ImageButton>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout5"
+		android:layout_width="match_parent" android:layout_weight="1"
+		android:layout_height="0dp"></LinearLayout>
+</LinearLayout>
